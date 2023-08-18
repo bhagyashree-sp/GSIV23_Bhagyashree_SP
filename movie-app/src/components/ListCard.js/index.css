@@ -1,0 +1,78 @@
+.card-container {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  /* height: 400px; */
+  /* padding: 20px; */
+  border-radius: 15px;
+  text-decoration: none;
+  margin: 10px 5px;
+  /* border: solid 2px #9b9b9b; */
+  box-shadow: 2px 2px 2px #9b9b9b;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.poster {
+  height: 300px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.title {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: bold;
+  color: #4a4a4a;
+  max-width: 70%;
+}
+.rating {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+.description {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500px;
+  color: black;
+}
+
+.button-description {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0px;
+  text-align: end;
+  /* border: 2px solid green; */
+  align-self: self-end;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.three-dots {
+  color: #4a4a4a;
+  width: 25px;
+  height: 25px;
+}
+
+/* .bb {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border: 2px solid red;
+  justify-content: flex-start;
+} */
