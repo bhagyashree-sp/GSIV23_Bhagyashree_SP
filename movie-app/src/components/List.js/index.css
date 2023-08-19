@@ -35,3 +35,9 @@
 .load-more-button:hover {
   color: #000000;
 }
+
+@media screen and (max-width: 576px) {
+  .list-container {
+    justify-content: center;
+  }
+}
