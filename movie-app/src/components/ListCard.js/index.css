@@ -77,9 +77,13 @@
   justify-content: flex-start;
 } */
 
+
 @media screen and (max-width: 768px) {
   .card-container {
     width: 80%;
+  }
+  .poster {
+    height: 500px;
   }
 }
 
