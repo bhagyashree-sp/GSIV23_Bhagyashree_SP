@@ -77,14 +77,10 @@
   justify-content: flex-start;
 } */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .card-container {
     width: 80%;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .card-container {
-    width: 45%;
-  }
-}
+
