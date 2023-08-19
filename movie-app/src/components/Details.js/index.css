@@ -72,4 +72,9 @@
   .details-container {
     flex-direction: column;
   }
+  .details-poster {
+    height: 600px;
+    margin-bottom: 10px;
+  }
 }
+
